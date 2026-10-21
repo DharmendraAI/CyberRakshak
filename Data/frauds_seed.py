@@ -1,0 +1,122 @@
+frauds = [
+    {
+        "name": "UPI Fraud",
+        "category": "Digital Payment Fraud",
+        "keywords": "upi, payment request, collect request, qr code, scan qr, money transfer, ",
+        "description": "A scam in which criminals use deceptive UPI-related requests or social engineering to trick victims into transferring money.",
+        "how_it_happens": "The fraudster may send a fake payment request, QR code, collect request, or pretend to be a trusted person.",
+        "warning_signs": "Unexpected payment request, unknown QR code, urgent payment demand, or request for UPI PIN or OTP.",
+        "prevention": "Never share UPI PIN or OTP. Verify the recipient and payment request before approving a transaction.",
+        "what_to_do": "Stop further transactions, contact the bank through official channels, preserve transaction details, and report the incident.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "KYC Scam",
+        "category": "Identity Fraud",
+        "keywords": "KYC Scam kyc, update kyc, verify kyc, kyc expired, account blocked, account suspended",
+        "description": "Fraudsters pretend to be representatives of a bank, wallet, telecom provider, or other service and claim that KYC must be updated urgently.",
+        "how_it_happens": "The victim receives a call, SMS, WhatsApp message, or link asking for personal information or payment to update KYC.",
+        "warning_signs": "Urgent KYC deadline, unknown links, requests for OTP, PIN, password, or remote access.",
+        "prevention": "Use only the official website or application of the service provider for KYC updates.",
+        "what_to_do": "Do not share credentials or click suspicious links. Contact the concerned organisation using its official contact details.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "OTP Fraud",
+        "category": "Social Engineering",
+        "keywords":"OTP Fraud otp, one time password, verification code, share otp, otp required",
+        "description": "A scam where criminals manipulate victims into revealing one-time passwords used for authentication or transactions.",
+        "how_it_happens": "The fraudster impersonates a bank employee, customer-care agent, delivery agent, or another trusted person.",
+        "warning_signs": "Unexpected OTP request, caller asking to read OTP aloud, or pressure to act immediately.",
+        "prevention": "Never share an OTP with anyone, even with someone claiming to be a bank or company employee.",
+        "what_to_do": "Contact the bank or service provider immediately if an OTP was disclosed or an unauthorised transaction occurred.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "Fake Customer Care Scam",
+        "category": "Impersonation Fraud",
+        "keywords":" Fake Customer Care Scam customer care, customer support, helpline, support number, customer service" ,
+        "description": "Criminals impersonate customer-care representatives and use fake support numbers or profiles to obtain money or sensitive information.",
+        "how_it_happens": "Victims searching online for customer support may contact a fake number and are asked to install an app, share credentials, or make a payment.",
+        "warning_signs": "Unofficial support number, request for remote-access application, OTP, PIN, or advance payment.",
+        "prevention": "Find customer-care information only through the official website or application.",
+        "what_to_do": "Disconnect the call, remove suspicious remote-access applications, and contact the genuine service provider.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "Phishing Scam",
+        "category": "Online Fraud",
+        "keywords":" Phishing Scam phishing, click link, verify account, login, suspicious link, update account " ,
+        "description": "A fraudulent message or website designed to trick users into revealing passwords, financial information, or other sensitive data.",
+        "how_it_happens": "Victims receive deceptive emails, SMS messages, social-media messages, or links that imitate legitimate organisations.",
+        "warning_signs": "Suspicious domain name, urgent message, unexpected attachment, or request for login or financial information.",
+        "prevention": "Check the website address carefully and avoid opening suspicious links or attachments.",
+        "what_to_do": "Do not provide information, close the suspicious page, change compromised passwords, and report the incident.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "Job Scam",
+        "category": "Employment Fraud",
+        "keywords": "Job Scam job offer, work from home, part time job, registration fee, job vacancy, earn money ",
+        "description": "Fraudsters advertise fake jobs and demand money or personal information from job seekers.",
+        "how_it_happens": "The victim is promised a job and asked to pay registration, verification, training, security, or other fees.",
+        "warning_signs": "Guaranteed job, unrealistic salary, payment before interview, or communication from an unverified recruiter.",
+        "prevention": "Verify the employer and job opening through official sources before sharing information or paying money.",
+        "what_to_do": "Stop payments, preserve messages and transaction records, and report suspected fraud.",
+        "risk_level": "Medium",
+        "active": True
+    },
+    {
+        "name": "Investment Scam",
+        "category": "Financial Fraud",
+        "keywords": "Investment Scam investment, guaranteed return, high return, profit, trading, investment opportunity ",
+        "description": "A fraudulent investment scheme that promises unusually high or guaranteed returns.",
+        "how_it_happens": "Scammers approach victims through social media, messaging platforms, websites, or fake investment applications.",
+        "warning_signs": "Guaranteed returns, pressure to invest quickly, fake profit screenshots, or withdrawal fees.",
+        "prevention": "Verify investment platforms and entities independently and avoid schemes promising unrealistic guaranteed returns.",
+        "what_to_do": "Stop sending money, preserve evidence, contact the financial institution, and report the suspected fraud.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "Loan App Scam",
+        "category": "Financial Fraud",
+        "keywords" : "Loan App Scam instant loan, loan app, processing fee, loan approval, easy loan ",
+        "description": "Fraud involving fake or abusive loan applications that may demand fees or misuse personal information.",
+        "how_it_happens": "Victims are offered quick loans and asked for processing fees, access to personal data, or payments through unofficial channels.",
+        "warning_signs": "Instant loan promise, upfront fee, excessive permissions, unknown application, or threats after installation.",
+        "prevention": "Use verified lending services and review application permissions carefully.",
+        "what_to_do": "Stop communication with the scammer, preserve evidence, uninstall suspicious applications where appropriate, and report the incident.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "QR Code Scam",
+        "category": "Digital Payment Fraud",
+        "keywords":"QR Code Scam qr code, scan qr, scan code, payment qr, receive payment ",
+        "description": "A scam where a victim is tricked into scanning a QR code or approving a payment under false pretences.",
+        "how_it_happens": "The fraudster claims that scanning a QR code will result in receiving money, a refund, or verification.",
+        "warning_signs": "Unexpected QR code, claim that scanning is required to receive money, or request for UPI PIN after scanning.",
+        "prevention": "Remember that receiving money normally does not require entering a UPI PIN to accept it.",
+        "what_to_do": "Do not approve suspicious payment requests and contact the bank immediately if an unauthorised transaction occurs.",
+        "risk_level": "High",
+        "active": True
+    },
+    {
+        "name": "Digital Arrest Scam",
+        "category": "Impersonation Fraud",
+        "keywords":" Digital Arrest Scam digital arrest, police, cbi, ed, warrant, video call, legal action",
+        "description": "A scam in which criminals impersonate law-enforcement or government officials and use threats or video calls to demand money.",
+        "how_it_happens": "The victim is falsely accused of involvement in a crime and pressured to remain on a call or transfer money for supposed verification.",
+        "warning_signs": "Threat of arrest over a phone or video call, demand for money, secrecy, or instructions to remain continuously connected.",
+        "prevention": "Do not transfer money because of threats over a call. Independently verify claims through official government or law-enforcement channels.",
+        "what_to_do": "End the call, preserve evidence, inform trusted people, contact the bank if money was transferred, and report the incident.",
+        "risk_level": "High",
+        "active": True
+    }
+]
